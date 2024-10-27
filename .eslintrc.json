@@ -1,0 +1,21 @@
+{
+    "env": {
+        "node": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "google",
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+        // You can customize rules here
+        "require-jsdoc": "off", // Disable JSDoc requirement if not needed
+        "max-len": [
+            "error",
+            {
+                "code": 100
+            }
+        ] // Adjust line length if needed
+    }
+}
